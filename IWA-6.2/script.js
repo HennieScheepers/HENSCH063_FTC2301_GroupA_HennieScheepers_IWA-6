@@ -9,7 +9,7 @@ const minuteOfDay = 00;
 
 // Only change below this line
 
-//Removed quotation marks around numbers
+//Removed quotation marks around numbers and moved variables out of if statement scope
 const taxAsDecimal = tax / 100
 const startingAfterTax = salary * (1 - taxAsDecimal)
 //fixed spelling error in balance and startingAfterTax
