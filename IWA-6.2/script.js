@@ -15,10 +15,8 @@ const startingAfterTax = salary * (1 - taxAsDecimal)
 //fixed spelling error in balance and startingAfterTax
 const balance = startingAfterTax - transport - food - rent
 //Added missing curly bracket before hourOfDay
-
-console.log(hourOfDay, minuteOfDay)
-// Gave hourOfDay and minuteOfDay their own undefined check. Proogram doesn't work with hourOfDay && minuteOfday !== undefined
-if ((hourOfDay === 00 && minuteOfDay === 00) && (hourOfDay !== undefined && minuteOfDay !== undefined)) {
+// Changed && to a comma between hourOfDay and minuteOfDay when checking if undefined
+if ((hourOfDay === 00 && minuteOfDay === 00) && (hourOfDay, minuteOfDay !== undefined)) {
     console.log(balance.toFixed(2))
 }
 

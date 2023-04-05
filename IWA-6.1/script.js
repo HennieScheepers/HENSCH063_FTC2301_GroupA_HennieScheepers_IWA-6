@@ -4,6 +4,7 @@ const secondaryPhone = '0219231568'
 // Only chnage below this line
 
 // used isNaN to determine if primaryPhone and secondaryPHone would return NaN when converted to number
+// used strict equality to compare data types as well
 const primaryValid = isNaN(primaryPhone) === true ? false : true
 const secondaryValid = isNaN(secondaryPhone) === true? false : true
 
