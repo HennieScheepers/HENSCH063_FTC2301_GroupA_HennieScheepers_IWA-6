@@ -12,8 +12,10 @@ const minuteOfDay = 00;
 //Removed quotation marks around numbers and moved variables out of if statement scope
 const taxAsDecimal = tax / 100
 const startingAfterTax = salary * (1 - taxAsDecimal)
+
 //fixed spelling error in balance and startingAfterTax
 const balance = startingAfterTax - transport - food - rent
+
 //Added missing curly bracket before hourOfDay
 // Changed && to a comma between hourOfDay and minuteOfDay when checking if undefined
 if ((hourOfDay === 00 && minuteOfDay === 00) && (hourOfDay, minuteOfDay !== undefined)) {
